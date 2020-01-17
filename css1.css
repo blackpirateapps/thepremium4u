@@ -1,0 +1,43 @@
+h1 {
+     font-family:Lato-Black;
+     color:green;
+     text-align:center;
+     font-size:200%
+     
+}
+#sex {
+       color:black;
+       text-align:center;
+       font-size:50%;
+       font-family:Lato-Black
+
+}
+#sex0 {
+       color:black;
+       text-align:center;
+       font-size:40%;
+       font-family:Lato-Black
+       
+
+}
+
+.vvi-container {
+                 text-align:center
+       
+}
+
+.vvi-block{
+             background-color:#ffce44;
+             height:100%;
+             width:30%;
+             display:inline-block
+}
+body {
+        text-align:center;
+        bg-color:black
+
+}
+@fontface {
+      font-family:"Lato-Black";
+      src: url("fonts/Lato-Black.ttf");
+}
