@@ -1,0 +1,38 @@
+h1 {
+     text-align:center;
+     text-decoration:none;
+     font-size: 45px;
+     padding-bottom: 5px;
+     border-bottom: 1px solid black;
+     color: #111111;
+
+}
+
+p.tagline{
+            text-align:center;
+            font-size:10px;
+            text-transform: uppercase;
+            font-family: Helvetica;
+            
+   }
+   
+body {
+       font-family: Helvetica;
+       margin: 100px;
+
+
+}
+
+h3 {
+     color: #0074D9;
+
+}
+
+a {
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #8d8df3;
+}
+p.description {
+                
+}
