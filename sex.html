@@ -1,4 +1,31 @@
-<div style="width: 640px; height: 480px; position: relative;">
-      <iframe src="https://drive.google.com/file/d/1mj5GLFa-edd7qlznAwFj6ExFDfSaXiC3/preview" width="1920" height="1080" frameborder="0" scrolling="no" seamless=""></iframe>
-<div style="width: 80px; height: 80px; position: absolute; opacity: 0; right: 0px; top: 0px;"></div>
-</div>
+<head>
+  <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+</head>
+
+<body>
+  <video
+    id="my-video"
+    class="video-js"
+    controls
+    preload="auto"
+    width="640"
+    height="264"
+    poster="MY_VIDEO_POSTER.jpg"
+    data-setup="{}"
+  >
+    <source src="https://www.dropbox.com/s/fvois2svev5g01i/720P_4000K_322698601.mp4?dl=1" type="video/mp4" />
+    <source src="MY_VIDEO.webm" type="video/webm" />
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank"
+        >supports HTML5 video</a
+      >
+    </p>
+  </video>
+
+  <script src="https://vjs.zencdn.net/7.10.2/video.js"></script>
+</body>
